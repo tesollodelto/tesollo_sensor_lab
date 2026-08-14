@@ -67,10 +67,9 @@ from isaaclab.utils import configclass
 class SceneCfg(InteractiveSceneCfg):
     ground = AssetBaseCfg(prim_path="/World/defaultGroundPlane", spawn=sim_utils.GroundPlaneCfg())
     
-    # Replace with your actual robot configuration
     robot = DELTO_HAND_TACTILE_CFG.replace(prim_path="{ENV_REGEX_NS}/robot")  
     
-    # Attach Tesollo tactile sensors to specific links
+    # Attach Tesollo tactile sensors to DG=5F's specific links
     tactile_sensor_1 = DELTO_TACTILE_SENSOR_CFG.replace(
         prim_path="{ENV_REGEX_NS}/robot/link_1_tactile/tactile_sensor"
     )
