@@ -8,6 +8,11 @@
 Welcome to the **Tesollo Sensor Lab** repository. 
 This is the repository providing Tesollo finger tip sensor configurations, data structures, and compiled modules.
 
+<p align="center">
+  <img src="images/tesollo_tactile_sensor.gif" width="1200" alt="DG5F-S Demo">
+</p>
+
+
 ## Overview
 This repository contains the compiled Python modules (`.so` files) required to interface with Tesollo sensors in simulation environments, explicitly designed for **NVIDIA Isaac Lab**.
 
