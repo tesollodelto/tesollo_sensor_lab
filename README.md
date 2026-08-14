@@ -59,7 +59,7 @@ from isaaclab.scene import InteractiveSceneCfg
 from isaaclab.utils import configclass
 
 @configclass
-class TactileSensorsSceneCfg(InteractiveSceneCfg):
+class SceneCfg(InteractiveSceneCfg):
     # Example: Spawn ground and light
     ground = AssetBaseCfg(prim_path="/World/defaultGroundPlane", spawn=sim_utils.GroundPlaneCfg())
     
