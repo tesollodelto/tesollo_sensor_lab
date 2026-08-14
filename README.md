@@ -60,7 +60,6 @@ from isaaclab.utils import configclass
 
 @configclass
 class SceneCfg(InteractiveSceneCfg):
-    # Example: Spawn ground and light
     ground = AssetBaseCfg(prim_path="/World/defaultGroundPlane", spawn=sim_utils.GroundPlaneCfg())
     
     # Replace with your actual robot configuration
