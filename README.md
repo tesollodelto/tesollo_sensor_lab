@@ -12,6 +12,10 @@ This is the repository providing Tesollo finger tip sensor configurations, data 
   <img src="images/tesollo_tactile_sensor.gif" width="1200" alt="Tactile Teleop Demo">
 </p>
 
+> **💡 Note on 3D Models:**
+> The sensor modules in this repository can be applied using the **DG-5F Tactile** model. 
+> You can find the corresponding USD files in our model repository: 
+> 🔗 [DG-5F Right Tactile USD](https://github.com/tesollodelto/tesollo_model/tree/main/dg5f/usd/dg5f_right_tactile)
 
 ## Overview
 This repository contains the compiled Python modules (`.so` files) required to interface with Tesollo sensors in simulation environments, explicitly designed for **NVIDIA Isaac Lab**.
@@ -91,6 +95,8 @@ tesollo_sensor_lab/
 ├── LICENSE
 └── README.md
 ```
+
+
 
 ## Contact & Support
 
